@@ -9,3 +9,8 @@
     width: 50px;
     padding: 5px;
 }
+
+#evaluation-form {
+  display: flex;
+  flex-basis: 675px;
+}
