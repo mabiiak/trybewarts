@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0;
 }
 
 .header {
@@ -69,7 +69,7 @@ header h1 {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #343a40;
+  background-color: rgb(20, 23, 25);
   color: white;
   padding: 5px;
 }
