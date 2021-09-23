@@ -74,23 +74,21 @@ footer {
   display: flex;
   width: 300px;
   padding: 5px;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
 
 #evaluation-form {
   display: flex;
-  padding: 5px;
   flex-basis: 675px;
   align-items: center;
-  margin-left: 100px; 
+  margin-left: 100px;
   flex-direction: column;
-  flex-wrap: wrap;
   border-radius: 5px;
 }
 
 #input-email {
   display: flex;
-  width: 300px ; 
+  width: 300px;
   padding: 5px;
   border-radius: 5px;
 }
@@ -111,4 +109,3 @@ main {
   flex-direction: row;
   width: 675px;
 }
-

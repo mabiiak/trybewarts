@@ -20,35 +20,53 @@
     <main>
       <form action="" id="evaluation-form">
           <div id="name-and-lastname">
-          <input type="text" name="nome" id="input-name" placeholder="Nome">
+           <input type="text" name="nome" id="input-name" placeholder="Nome">
 
-          <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
+            <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
+         </div>
+          <div id="email-and-house">
+            <input type="email" name="email" id="input-email" placeholder="Email">
+
+            <label for="house">Casa:</label>
+            <select name="house" id="house"> 
+
+              <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
+
+              <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+
+              <option type="text" value="Corvinode" id="corvinode-house">Corvinode</option>
+
+              <option type="text" value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
         </div>
-            <div id="email-and-house">
-          <input type="email" name="email" id="input-email" placeholder="Email">
 
-          <select name="house" id="house">
+        <label id='label-family' for="family">Qual sua família?
+          
+          <input type="radio" name="family" value="Frontend" id="front">Frontend
 
-            <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <input type="radio" name="family" value="Backend" id="back">Backend
 
-            <option type="text" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-
-            <option type="text" value="Corvinode" id="corvinode-house">Corvinode</option>
-
-            <option type="text" value="Pytherina" id="pytherina-house">Pytherina</option>
-          </select>
-
-        </div>
-
-          <label id='label-family' for="family">Qual sua família?
-            
-            <input type="radio" name="family" value="Frontend" id="front">Frontend
-
-            <input type="radio" name="family" value="Backend" id="back">Backend
-
-            <input type="radio" name="family" value="FullStack" id="full">Fullstack
+          <input type="radio" name="family" value="FullStack" id="full">Fullstack
 
         </label>
+
+        <div>
+
+          <label for="" id="label-rate">Como você avalia a Trybewarts?
+            <input type="radio" name="rate" id="" value="1">1
+            <input type="radio" name="rate" id="" value="2">2
+            <input type="radio" name="rate" id="" value="3">3
+            <input type="radio" name="rate" id="" value="4">4
+            <input type="radio" name="rate" id="" value="5">5
+            <input type="radio" name="rate" id="" value="6">6
+            <input type="radio" name="rate" id="" value="7">7
+            <input type="radio" name="rate" id="" value="8">8
+            <input type="radio" name="rate" id="" value="9">9
+            <input type="radio" name="rate" id="" value="10">10
+
+          </label>
+
+        </div>
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo trybewarts">
     </main>
