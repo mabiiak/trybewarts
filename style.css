@@ -18,12 +18,19 @@
 
 main {
   display: flex;
+  flex-wrap: nowrap;
+
+  /* flex-flow: column; */
 }
 
 #evaluation-form {
   display: flex;
   flex-basis: 675px;
   flex-direction: column;
+  padding: 5px;
+  align-items: center;
+  margin-left: 100px;
+  width: 675px;
 }
 
 #trybewarts-forms-logo {
@@ -85,26 +92,11 @@ footer {
   display: flex;
   width: 400px;
   padding: 5px;
-  border-radius: 5px;  
-}
-
-#evaluation-form {
-  display: flex;
-  padding: 5px;
-  align-items: center;
-  margin-left: 100px; 
-  width: 675px;
+  border-radius: 5px;
 }
 
 #input-email {
   display: flex;
   width: 400px;
   padding: 5px;
-  
-}
-
-main {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
 }
