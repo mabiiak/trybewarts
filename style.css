@@ -19,8 +19,6 @@
 #trybewarts-forms-logo {
   display: flex;
   height: 500px;
-  /* width: 50%; */
-  /* flex-direction: row; */
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -81,10 +79,13 @@ footer {
 
 #evaluation-form {
   display: flex;
+  padding: 5px;
   flex-basis: 675px;
-  margin-left: 50px; 
+  align-items: center;
+  margin-left: 100px; 
   flex-direction: column;
   flex-wrap: wrap;
+  border-radius: 5px;
 }
 
 #input-email {
@@ -92,7 +93,6 @@ footer {
   width: 300px ; 
   padding: 5px;
   border-radius: 5px;
- 
 }
 
 main {
@@ -111,3 +111,4 @@ main {
   flex-direction: row;
   width: 675px;
 }
+
