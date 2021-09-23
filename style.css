@@ -118,4 +118,10 @@ main {
 #div-content {
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#div-content input, label {
+  margin-left: 10px;
+  margin-right: 5px;
 }
