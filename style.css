@@ -112,3 +112,13 @@ main {
   width: 675px;
 }
 
+#label-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#div-content {
+  display: flex;
+  flex-direction: row;
+}
+
