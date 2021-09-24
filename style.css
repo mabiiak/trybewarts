@@ -137,13 +137,12 @@ main {
 
 #div-family {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #label-family {
   display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
+  flex-wrap: wrap;
   width: 100px;
 }
 
@@ -156,6 +155,6 @@ main {
 
 #div-textarea textarea {
   display: flex;
-  width: 675px;
+  width: 665px;
   margin-top: 5px;
 }
