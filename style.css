@@ -137,13 +137,14 @@ main {
 
 #div-family {
   display: flex;
-  flex-direction: row;
+  margin-top: 10px;
+  flex-flow: wrap;
+  width: 100px;
 }
 
-#label-family {
+#div-family text {
   display: flex;
-  flex-wrap: wrap;
-  width: 100px;
+  margin-left: 0;
 }
 
 #div-textarea {
