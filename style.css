@@ -20,7 +20,6 @@
   display: flex;
   height: 500px;
   justify-content: flex-end;
-  margin-left: 20%;
 }
 
 .trybewarts-login {
@@ -98,9 +97,6 @@ main {
   flex-wrap: nowrap;
 }
 
-#house {
-  width: 39%;
-}
 
 #name-and-lastname {
   display: flex;
@@ -119,6 +115,10 @@ main {
   align-items: center;
 }
 
+#house {
+  width: 42.5%;
+}
+
 #label-content {
   flex-direction: column;
 }
@@ -133,6 +133,18 @@ main {
 #div-content label , input {
   margin-left: 10px;
   margin-right: 5px;
+}
+
+#div-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 100px;
 }
 
 #div-textarea {
