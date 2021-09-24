@@ -20,7 +20,8 @@
   display: flex;
   height: 500px;
   justify-content: flex-end;
-  align-items: flex-end;
+  margin-left: 20%;
+  
 }
 
 .trybewarts-login {
@@ -120,7 +121,6 @@ main {
 }
 
 #label-content {
-  display: flex;
   flex-direction: column;
 }
 
