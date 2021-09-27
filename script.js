@@ -17,17 +17,29 @@ buttonLogin.addEventListener('click', verificaImput);
 
 // Requisito 18
 function verificaButtonSubmit() {
-const inputCheckbox = document.getElementById('agreement'); 
-const buttonSubmit = document.getElementById('submit-btn');
+  const inputCheckbox = document.getElementById('agreement');
+  const buttonSubmit = document.getElementById('submit-btn');
 
-buttonSubmit.disabled = true;
+  buttonSubmit.disabled = true;
 
-inputCheckbox.addEventListener('change', function (event) {
-  if (event.target.checked) {
-    buttonSubmit.disabled = false;
-  } else {
-    buttonSubmit.disabled = true;
-  }
-});
+  inputCheckbox.addEventListener('change', (event) => {
+    if (event.target.checked) {
+      buttonSubmit.disabled = false;
+    } else {
+      buttonSubmit.disabled = true;
+    }
+  });
 }
 verificaButtonSubmit();
+
+// Requisito 21
+/* const buttonSubmit = document.getElementById('submit-btn');
+buttonSubmit.addEventListener('click', function (event) {
+  const nome
+  const email
+  const casa
+  const familia
+  const materias
+  const avaliacoes
+  const observacoes
+}) */
