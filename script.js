@@ -14,3 +14,20 @@ function verificaImput() {
 }
 
 buttonLogin.addEventListener('click', verificaImput);
+
+// Requisito 18
+function verificaButtonSubmit() {
+const inputCheckbox = document.getElementById('agreement'); 
+const buttonSubmit = document.getElementById('submit-btn');
+
+buttonSubmit.disabled = true;
+
+inputCheckbox.addEventListener('change', function (event) {
+  if (event.target.checked) {
+    buttonSubmit.disabled = false;
+  } else {
+    buttonSubmit.disabled = true;
+  }
+});
+}
+verificaButtonSubmit();
