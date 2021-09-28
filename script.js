@@ -43,3 +43,31 @@ buttonSubmit.addEventListener('click', function (event) {
   const avaliacoes
   const observacoes
 }) */
+
+/*
+  Criar um elemento com id counter - mas onde? - antes do text area?
+  contador tera o valor 500
+  tera um evento que escuta alterações (change) no text area
+  o contador deve diminuir ao passo que coisas forem escritas
+  e incrementar quando forem apagadas
+*/
+
+const textAreaContent = document.getElementById('textarea');
+const counterLocal = document.getElementById('counter');
+
+let contador = 500;
+
+textAreaContent.addEventListener('change', () => {
+  let textoAtual = textAreaContent.value.length;
+
+  if (textAreaContent.value.length >= textoAtual) {
+    contador = 500 - textAreaContent.value.length;
+    counterLocal.innerHTML = contador;
+    textoAtual = textAreaContent.value.length;
+  } else if (textAreaContent.value.length < textoAtual) {
+    const diferenca = textoAtual - textAreaContent.value.length;
+    contador = 500 + diferenca;
+    counterLocal.innerHTML = contador;
+    textoAtual = textAreaContent.value.length;
+  }
+});
