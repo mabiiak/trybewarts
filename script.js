@@ -43,11 +43,10 @@ verificaButtonSubmit();
 const textAreaContent = document.getElementById('textarea');
 const counterLocal = document.getElementById('counter');
 
-let contador = 500;
+let contador = 0;
 
 textAreaContent.addEventListener('change', () => {
   let textoAtual = textAreaContent.value.length;
-
   if (textAreaContent.value.length >= textoAtual) {
     contador = 500 - textAreaContent.value.length;
     counterLocal.innerHTML = contador;
@@ -72,7 +71,7 @@ textAreaContent.addEventListener('change', () => {
 //   const materias = document.querySelectorAll('.subject').value;
 //   const avaliacao = document.querySelectorAll('.radio').value;
 //   const observacoes = document.getElementById('textarea').value;
- 
+
 //     const name =`Nome: ${nome} ${sobrenome}`;
 //     const email = `Email: ${emailValor}`;
 //     const house = `Casa: ${casa}`;
@@ -80,7 +79,7 @@ textAreaContent.addEventListener('change', () => {
 //     const subjects = `Matérias: ${materias}`;
 //     const evaluation = `Avaliação: ${avaliacao}`;
 //     const comments = `Observações: ${observacoes}`;
- 
+
 //      const info = [
 //       name,
 //       email,
@@ -88,8 +87,8 @@ textAreaContent.addEventListener('change', () => {
 //       family,
 //       subjects,
 //       evaluation,
-//       comments
-//     ]; 
+//       comments,
+//     ];
 
 //      for (let i = 0; i < info.length; i += 1) {
 //       const paragrafo = document.createElement('p');
