@@ -60,50 +60,50 @@ textAreaContent.addEventListener('change', () => {
   }
 });
 
-function saveData(event) {
+// function saveData(event) {
 
-  event.preventDefault();
+//   event.preventDefault();
 
-  const nome = document.getElementById('input-name').value;
-  const sobrenome = document.getElementById('input-lastname').value
-  const emailValor = document.getElementById('input-email').value;
-  const casa = document.getElementById('house').value;
-  const familia = document.getElementById('div-family').value;
-  const materias = document.querySelectorAll('.subject').value;
-  const avaliacao = document.querySelectorAll('.radio').value;
-  const observacoes = document.getElementById('textarea').value;
+//   const nome = document.getElementById('input-name').value;
+//   const sobrenome = document.getElementById('input-lastname').value
+//   const emailValor = document.getElementById('input-email').value;
+//   const casa = document.getElementById('house').value;
+//   const familia = document.getElementById('div-family').value;
+//   const materias = document.querySelectorAll('.subject').value;
+//   const avaliacao = document.querySelectorAll('.radio').value;
+//   const observacoes = document.getElementById('textarea').value;
  
-    const name =`Nome: ${nome} ${sobrenome}`;
-    const email = `Email: ${emailValor}`;
-    const house = `Casa: ${casa}`;
-    const family = `Família: ${familia}`;
-    const subjects = `Matérias: ${materias}`;
-    const evaluation = `Avaliação: ${avaliacao}`;
-    const comments = `Observações: ${observacoes}`;
+//     const name =`Nome: ${nome} ${sobrenome}`;
+//     const email = `Email: ${emailValor}`;
+//     const house = `Casa: ${casa}`;
+//     const family = `Família: ${familia}`;
+//     const subjects = `Matérias: ${materias}`;
+//     const evaluation = `Avaliação: ${avaliacao}`;
+//     const comments = `Observações: ${observacoes}`;
  
-     const info = [
-      name,
-      email,
-      house,
-      family,
-      subjects,
-      evaluation,
-      comments
-    ]; 
+//      const info = [
+//       name,
+//       email,
+//       house,
+//       family,
+//       subjects,
+//       evaluation,
+//       comments
+//     ]; 
 
-     for (let i = 0; i < info.length; i += 1) {
-      const paragrafo = document.createElement('p');
-      paragrafo.innerText = info[i];
+//      for (let i = 0; i < info.length; i += 1) {
+//       const paragrafo = document.createElement('p');
+//       paragrafo.innerText = info[i];
 
-      const evaluationForm = document.getElementById('evaluation-form');
-        evaluationForm.appendChild(p);
-    }
+//       const evaluationForm = document.getElementById('evaluation-form');
+//         evaluationForm.appendChild(p);
+//     }
 
-    return true;
-}
+//     return true;
+// }
 
-  const submitButton = document.getElementById('submit-btn');
-    submitButton.addEventListener('click', saveData)
+//   const submitButton = document.getElementById('submit-btn');
+//     submitButton.addEventListener('click', saveData)
 
 /* Deve haver um campo com o formato "Nome: Alguem Aqui"
 Deve haver um campo com o formato "Email: email@mail.com"
